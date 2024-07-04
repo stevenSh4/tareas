@@ -1,0 +1,30 @@
+.tarea {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  background-color: #afafaf;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: 100px;
+}
+
+.titulo-tarea {
+  background-color: #afafaf;
+  color: #000;
+}
+
+.btn-eliminar {
+  background-color: #f71313;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

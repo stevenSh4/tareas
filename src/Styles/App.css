@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e5e5e5;
+}
+
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.encabezado {
+  height: 100px;
+  background-color: #3e415c;
+  font-size: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.titulo {
+  background-color: #3e415c;
+  color: #fff;
+}
+
+.btn-flecha-abajo {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flecha-abajo {
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mostrar-tarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
